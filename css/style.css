@@ -206,7 +206,7 @@ img.sponsorimg{
 
 section.about{
     
-    background-image: url(..img/About.png);
+    background-image: url(About.png);
     min-height: 100%;
     background-size:cover;
     background-position:center;
