@@ -1,5 +1,9 @@
 /* Primary Color: #4d00da
-    deeper shade: #4303b5 */
+    deeper shade: #4303b5 
+    
+    Text Color: #202a46
+    
+    */
 *{
     margin:0;
     padding:0;
@@ -9,7 +13,7 @@
 body,html{
     background-color:#fff;
     color:#fff;
-    font-family:Lato,Arial,sans-serif;
+    font-family:'Nunito';
     font-weight:300;
     font-size:20px;
     text-rendering:optimizeLegibility;
@@ -17,26 +21,44 @@ body,html{
 }
 header{
     background-image:url("../img/bg.png");
-    min-height: 500px;
+    min-height: 750px;
     background-size:cover;
     background-position:center;
+    background-repeat: no-repeat;
 
 }
-
+h1,h2,h3{
+    font-family: 'Nunito';
+}
+h4,h5,h6{
+    font-family: 'Poppins';
+    color: #202a46;
+}
+.speakername{
+    margin: 5px 0;
+    font-size: 18px;
+}
+.position{
+    font-size: 12px;
+}
 .infobox
     {
-    padding: 150px 300px;
+    padding: 100px 0 0 250px;
     }
-/* a:hover{
-    background-color: #4d00da;} */
-h1{color: #4d00da;
-    font-family: Montstratt    
-}
-h5{color: #a504cc}
-/* h4,h6{color: #3e4454;} */
 
+h1{
+    color: #4d00da; 
+}
+.country{
+    color: #a504cc;
+}
+/* h4,h6{color: #3e4454;} */
+.date{
+    margin-bottom: 25px;
+}
 .headline{
-    font-size: 100px;
+    margin-bottom: 25px;
+    font-size: 70px;
 }
  .navigations{
      margin-left: 450px;
@@ -52,16 +74,62 @@ h5{color: #a504cc}
     z-index: 9999;   
 }
 
-.getticket{
+/* Buttons */
+.btn-getticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
     background-color: #3e4454; 
+    border-color: #3e4454;
     border-radius:30px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 .btn-getticket:hover{
     background-color: #202a46;
     border-color: #202a46;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .2s ease-in;
+}
+
+.btn-speakers {
+    background-color: #4d00da;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.btn-speakers:hover {
+    background-color: #2d0080;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .2s ease-in ;
+
+}
+
+.btn-purchase{
+    background-color: #4d00da;
+    border-color: #4d00da;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+.btn-purchase:hover {
+    background-color: #2d0080;
+    border-color: #2d0080;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .4s ease-in;
+}
+
+.btn-sendbtn{
+    background-color:#4d00da ;
+    border-color: #4d00da;
+    border-radius: 30px;
+}
+.btn-sendbtn:hover{
+    background-color: #2d0080;
+    border-color: #2d0080;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: .4s;
 }
+/* --------------------------------- */
 
 
 .custom{
@@ -84,12 +152,8 @@ section {
 .lgtext{
     font-size: 50px;
 }
-.buyticket{
-    padding: 100px 0;}
-.smcards{
-    padding: 50px 0;
-    padding-left: 300px;    
-}
+
+
 .speakers{
     min-height: 900px;
     background-color: #4d00da;
@@ -97,34 +161,21 @@ section {
 
 
 .imgbox {
-  padding-bottom: 10px;
   border-radius: 5px;
-  transition: transform .2s;
-  /* width: 250px;
-  height: 450px; */
-  margin: 0 auto;
+  width: 180px;
+  height: 266px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  
 }
 
 .imgbox:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.05);
-  transition: .2s;
-}
-.btn-speakers {
-    background-color: #4d00da;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 30px;
+  transform: scale(1.0125);
+  transition: transform .2s ease-in;
 }
 
-.btn-speakers:hover {
-    background-color: #2d0080;
-    color: #fff;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .4s;
-
-}
 .event-schedule{
     background-color: #fff;
     min-height: 1000px;
@@ -225,6 +276,16 @@ section.about{
     background-color: #f3f3f3;
     min-height: 600px;
 }
+/* .overlay{
+    background-color: rgba(0, 0, 0, 0.185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 711.5px;
+}
+.overlay :hover {
+    display: none;
+} */
  
 /* Form-control Shadow */
 .form-control-alternative {
@@ -246,11 +307,7 @@ section.about{
 }
 
 
-.spkrimg
-{
-    padding-left: 15%;
-    padding-right: 15%;
-}
+
 .speakers
 {
     background-image: url("../img/side-father_-left.png"), url("../img/father_right.png");
@@ -270,18 +327,13 @@ section.about{
 }
 .sponsors{
     color: #333333;
-    font-family: Montstratt;
+    font-family: 'Nunito';
 }
 .contactusfont
 {
-    font-family:  Montstratt; 
+    font-family:  'Nunito'; 
 }
-/* Buy ticket*/
-a.btn.btn-primary.text-white.font-weight-bold.text-center.purchase.px-5:hover {
-    background-color: #2d0080;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .4s;
-}
+
 /* Event schedule track 1 */
 li.nav-item.text-center:hover {
     background-color: #898f9e;
@@ -290,15 +342,7 @@ li.nav-item.text-center:hover {
 .sendbtn{
     border-radius:30px;
 }
-.btn.btn-sendbtn{
-    background-color:#4d00da ;
-    border-radius: 30px;
-}
-.btn.btn-sendbtn:hover{
-    background-color: #2d0080;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .4s;
-}
+
 textarea.form-control.form-control-alternative.my-3:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transform: scale(1.0125);

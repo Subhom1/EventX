@@ -30,10 +30,10 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: $('.js--section-contact').offset().top }, 1000);
     });
 
-/* For the sticky navigation */
-    $('nav').removeClass('sticky');
+    /* For the sticky navigation */
+
     $('.js--buyticket').waypoint(function (direction) {
-        
+
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
