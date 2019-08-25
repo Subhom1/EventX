@@ -136,6 +136,7 @@ h1{
     margin:10px;
 }
 .card.custom:hover {
+    cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transform: scale(1.0125);
     transition: transform .2s;
@@ -255,13 +256,17 @@ img.sponsorimg{
     background-color: #4d00da;
 }
 
-section.about{
+.about{
     
     background-image: url("../img/About.png");
-    min-height: 100%;
+    min-height: 180%;
     background-size:cover;
     background-position:center;
     padding: 0;
+}
+.about-section{
+    background-color: #f3f3f3;
+    padding-bottom: 0;
 
 }
 
