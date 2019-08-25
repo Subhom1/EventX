@@ -16,7 +16,7 @@ body,html{
     overflow-x:hidden
 }
 header{
-    background-image:url("img/bg.png");
+    background-image:url("/img/bg.png");
     min-height: 500px;
     background-size:cover;
     background-position:center;
@@ -206,7 +206,7 @@ img.sponsorimg{
 
 section.about{
     
-    background-image: url("img/About.png");
+    background-image: url(/img/About.png);
     min-height: 100%;
     background-size:cover;
     background-position:center;
@@ -253,7 +253,7 @@ section.about{
 }
 .speakers
 {
-    background-image: url("/img/side-father_-left.png"), url("img/father_right.png");
+    background-image: url("/img/side-father_-left.png"), url("/img/father_right.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat; 
 }
