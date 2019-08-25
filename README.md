@@ -1,2 +1,2 @@
 # EventX
-An event management website
+An event management website (Static)
