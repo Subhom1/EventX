@@ -1,0 +1,72 @@
+/* small phones */
+@media only screen and (max-width:481px){
+
+.infobox{
+    padding: 0
+}
+.navigations
+{
+    padding: 0;
+    margin: 0;
+    padding-top: 10px; 
+
+}
+h1,
+.headline{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.getticket{
+    width: 10%;
+    font-size: 15px;
+    margin-bottom: 50px;
+    
+}
+.dates{
+    font-size: 15px;
+}
+.country{
+    font-size: 20px;
+}
+.smcards{
+    padding: 0;
+}
+.purchase{
+    width: 10%;
+    font-size: 15px;
+    
+}
+.buyticket{padding: 0;}
+.buyrow{
+    padding: 20px 0;
+}
+.speakerdetails{
+    height: auto;
+}
+.col-lg-6.info{
+    padding: 50px;
+}
+.aboutinfo{
+    padding: 50px;
+}
+
+
+}
+
+
+/* medium phones to ipad mini */
+@media only screen and (max-width:769){
+
+}
+
+/* small tab to large ipad */
+@media only screen and (max-width:1200px){
+
+}
+
+
+/* big tab to large tab */
+@media only screen and (min-width:1201px){
+
+    
+}
