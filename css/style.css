@@ -253,7 +253,7 @@ section.about{
 }
 .speakers
 {
-    background-image: url("img/side-father_-left.png"), url("img/father_right.png");
+    background-image: url("/img/side-father_-left.png"), url("img/father_right.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat; 
 }
