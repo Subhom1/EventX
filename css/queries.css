@@ -11,45 +11,12 @@
     padding-top: 10px; 
 
 }
-h1,
+.navbar-light .navbar-nav .nav-item.active {
+padding: 1px;
+}
 .headline{
-    padding-top: 50px;
     font-size: 40px;
 }
-.getticket{
-    width: 10%;
-    font-size: 15px;
-    margin-bottom: 50px;
-    
-}
-.dates{
-    font-size: 15px;
-}
-.country{
-    font-size: 20px;
-}
-.smcards{
-    padding: 0;
-}
-.purchase{
-    width: 10%;
-    font-size: 15px;
-    
-}
-.buyticket{padding: 0;}
-.buyrow{
-    padding: 20px 0;
-}
-.speakerdetails{
-    height: auto;
-}
-.col-lg-6.info{
-    padding: 50px;
-}
-.aboutinfo{
-    padding: 50px;
-}
-
 
 }
 
