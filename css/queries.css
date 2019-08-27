@@ -12,7 +12,12 @@
 
 }
 .navbar-light .navbar-nav .nav-item.active {
-padding: 1px;
+padding:1px;
+font-size: 10px;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    padding: 5px 10px;
+    font-size: 10px;
 }
 .headline{
     font-size: 40px;

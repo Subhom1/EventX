@@ -34,6 +34,15 @@ h4,h5,h6{
     font-family: 'Poppins';
     color: #202a46;
 }
+.card-title{
+    font-size: 18px;
+}
+.card-text{
+    margin-bottom: 10px;
+}
+.customize{
+    height: 150px;
+}
 .speakername{
     margin: 5px 0;
     font-size: 18px;
@@ -218,8 +227,8 @@ small.workshop {
 .newscard
 {
 border: 0;
-width:500px; 
-height: 500px;
+width:400px; 
+height: 400px;
 box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 
 }
@@ -323,7 +332,7 @@ img.sponsorimg{
 .speakerdetails
 {
     height: 200px;
-    
+    padding: 0 15px;
 }
 .customcontainer
 {
@@ -359,9 +368,10 @@ input.form-control.form-control-alternative.my-3:hover {
     transition: transform .2s;
 }
 .row.speakerdetails:hover {
+    padding: 0;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transform: scale(1.025);
-    transition: transform .2s;
+    transform: scale(1.0125);
+    transition: transform .2s ease-out;
 }   
 .sponsors_div > div{
     border: 1px solid #fff;
