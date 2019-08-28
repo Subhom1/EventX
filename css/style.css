@@ -199,7 +199,7 @@ section {
     min-height: 1000px;
 }
 
-li.nav-item {
+.customnavpills {
     width: 25%;
 }
 .tab{
@@ -343,7 +343,7 @@ hr.whitehr{
     width: 100%;
 }
 .customize{
-    padding: 15px 25px;
+    padding: 20px 30px;
 }
 .sponsors{
     color: #333333;
@@ -384,5 +384,5 @@ input.form-control.form-control-alternative.my-3:hover {
 }
 
 .newsimg{
-    height:63%;
+    height:60%;
 }

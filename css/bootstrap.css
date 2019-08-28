@@ -2963,7 +2963,7 @@ tbody.collapse.show {
   background-color: #4d00da;
   border-radius:30px;
   color: #fff;
-  padding: 5px;
+  /* padding: 5px; */
   
  }
 .navbar-light .navbar-toggler {
