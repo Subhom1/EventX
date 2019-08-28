@@ -34,6 +34,9 @@ h4,h5,h6{
     font-family: 'Poppins';
     color: #202a46;
 }
+.title{
+    margin: 40px 0;
+}
 .card-title{
     font-size: 18px;
 }

@@ -12,7 +12,7 @@
 
 }
 .title{
-    margin: 20px; 
+    margin: 20px 0; 
 }
 .country, .date{
     font-size: 18px;
@@ -63,22 +63,44 @@ font-size: 15px;
     height: 55%;
 }
 .imgbox{
-    width: 170px;
-    height: 240px;
+    width: 150px;
+    height: 220px;
 }
 .workshopimg{
     height: 120px;
     width: 120px;
 }
+.cntctuspara{
+    padding-left: 20px; 
 }
-@media (hover: none) {
-    .speakerdetails:hover { color: inherit; }
+
 }
+
 
 
 /* medium phones to ipad mini */
-@media only screen and (max-width:769){
+@media only screen and (max-width:769px){
 
+    .infobox{
+        padding: 100px 0 0 50px;
+    }
+
+    .headline{
+        font-size: 60px;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .navigations{
+        padding: 0;
+    }
+    #navbarCollapse{
+        padding: 0 200px 0 0;
+        width: 300px;
+        margin-right: auto;
+
+    }
 }
 
 /* small tab to large ipad */
