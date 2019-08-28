@@ -265,7 +265,7 @@ hr.whitehr{
     border: 2px solid #fff;
     width: 5%;
 }
-img.sponsorimg{
+.sponsorimg{
     margin: 0px 40px;
 }
 
@@ -342,6 +342,9 @@ img.sponsorimg{
     padding: 0 15%;
     width: 100%;
 }
+.customize{
+    padding: 15px 25px;
+}
 .sponsors{
     color: #333333;
     font-family: 'Nunito';
@@ -381,5 +384,5 @@ input.form-control.form-control-alternative.my-3:hover {
 }
 
 .newsimg{
-    height:60%;
+    height:63%;
 }

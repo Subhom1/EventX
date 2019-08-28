@@ -110,6 +110,11 @@ font-size: 15px;
     .speakers{
         height: 1050px;
     }
+    .sponsorimg{
+        height: 50px;
+        width: 50px;
+        margin: 0 10px;
+    }
 }
 
 /* small tab to large ipad */
