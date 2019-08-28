@@ -170,8 +170,11 @@ section {
 
 
 .speakers{
-    min-height: 900px;
+    min-height: 800px;
     background-color: #4d00da;
+    background-image: url("../img/side-father_-left.png"), url("../img/father_right.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
 }
 
 
@@ -327,15 +330,6 @@ img.sponsorimg{
     width: 100%;
     height:100%;
     background-color: #4d00da;
-}
-
-
-
-.speakers
-{
-    background-image: url("../img/side-father_-left.png"), url("../img/father_right.png");
-    background-position: left top, right bottom;
-    background-repeat: no-repeat, no-repeat; 
 }
 
 .speakerdetails

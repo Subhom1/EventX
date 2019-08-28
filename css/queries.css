@@ -101,6 +101,15 @@ font-size: 15px;
         margin-right: auto;
 
     }
+    .infobox{
+        padding: 100px 0 50px 50px;
+    }
+    .navigations{
+        margin-left: 50px;
+    }
+    .speakers{
+        height: 1050px;
+    }
 }
 
 /* small tab to large ipad */
