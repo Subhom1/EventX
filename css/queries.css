@@ -81,7 +81,7 @@ font-size: 15px;
 /* medium phones to ipad mini */
 @media only screen and (max-width:769px){
 
-    .infobox{
+    /* .infobox{
         padding: 100px 0 0 50px;
     }
 
@@ -115,7 +115,7 @@ font-size: 15px;
         height: 50px;
         width: 50px;
         margin: 0 10px;
-    }
+    } */
 }
 
 /* small tab to large ipad */
